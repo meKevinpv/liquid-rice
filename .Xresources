@@ -3,7 +3,7 @@ st.alpha: 0.92
 st.alphaOffset: 0.3
 
 !! Set a default font and font size as below:
-st.font: Monospace-12;
+st.font: Fantasque Sans Mono-12;
 
 ! st.termname: st-256color
 ! st.borderpx: 2
@@ -128,3 +128,5 @@ rofi.dpi: 192
 /* *.color13:  #ff00ff */
 /* *.color14:  #00ffff */
 /* *.color15:  #aabac8 */
+
+i3-wm.client.focused.color.child_border: #FF0000
