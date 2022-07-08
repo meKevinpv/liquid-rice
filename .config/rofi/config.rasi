@@ -1,1 +1,6 @@
-@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+configuration {
+  modi: "window";
+  font: "Fantasque Sans Mono 24";
+}
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
