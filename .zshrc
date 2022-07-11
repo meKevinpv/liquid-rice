@@ -105,7 +105,7 @@ alias cl="clear"
 alias clock="peaclock"
 alias sr="sudo !!"
 alias home="cd ~"
-
+alias ctc="xclip -selection clipboard"
 echo "Fortune favors the bold."
 eval "$(starship init zsh)"
 
