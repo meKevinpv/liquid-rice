@@ -7,6 +7,7 @@ Plug 'folke/zen-mode.nvim'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'f-person/git-blame.nvim'
 call plug#end()
 
 " -- Emmet for HTML and CSS --
