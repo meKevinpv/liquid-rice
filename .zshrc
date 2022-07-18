@@ -90,21 +90,36 @@ plugins=(git)
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
+# ----------------------------------
+#   mm   m      mmmmm    mm    mmmm 
+#   ##   #        #      ##   #"   "
+#  #  #  #        #     #  #  "#mmm 
+#  #mm#  #        #     #mm#      "#
+# #    # #mmmmm mm#mm  #    # "mmm#"
+# ----------------------------------
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias ll="exa -l --icons"
+alias ll="exa -l --icons --color=always"
+alias l="exa --icons --color=always"
 alias fonts="pango-list"
 alias cl="clear"
 alias clock="peaclock"
 alias sr="sudo !!"
 alias home="cd ~"
 alias ctc="xclip -selection clipboard"
+alias zc="nvim ~/.zshrc"
+alias .="cd .."
+alias ./.="cd ../.."
+alias ././.="cd ../../.."
+alias ~="cd ~" 
+alias nc="nvim ~/.nvimrc  
+#  mmmm mmmmmmm   mm   mmmmm   mmmm  m    m mmmmm  mmmmm 
+# #"   "   #      ##   #   "# #"   " #    #   #    #   "#
+# "#mmm    #     #  #  #mmmm" "#mmm  #mmmm#   #    #mmm#"
+#     "#   #     #mm#  #   "m     "# #    #   #    #     
+# "mmm#"   #    #    # #    " "mmm#" #    # mm#mm  #     
+
+# Starship startup
 echo "Fortune favors the bold."
 eval "$(starship init zsh)"
 cat /home/kevinv/.cache/wal/sequences

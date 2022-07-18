@@ -1,6 +1,24 @@
 " -- Personal Settings --
-set number
+set rnu
+set foldcolumn=1
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set ai
+set si
+set wrap
+map <space> /
 
+" -- Sudo save file on :W
+command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
+
+" -- 7 Lines to cursor when moving vertically
+set so=7
+
+let $LANG='en'
+set langmenu=en
+
+map <C-space> ?
 " -- Plugins --
 call plug#begin()
 Plug 'folke/zen-mode.nvim'
