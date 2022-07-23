@@ -1,39 +1,62 @@
-" -- Personal Settings --
+" 	File: Nvim Configuration
+"
+"	 ____  _______________ 
+"	(_)  \/  || ___ \ ___ \
+"	 _| .  . || |_/ / |_/ /
+"	| | |\/| || ___ \    / 
+"	| | |  | || |_/ / |\ \ 
+"	|_\_|  |_/\____/\_| \_|
+"	Made by: Kevin Veldman
+"
+                       
+"	Personal Settings
 set rnu
+set exrc
 set foldcolumn=1
 set smarttab
 set shiftwidth=4
+set smartindent
+set expandtab
+set nohlsearch
+set hidden
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set nowrap
 set tabstop=4
+set incsearch
 set ai
 set si
-set wrap
-map <space> /
-
-" -- Sudo save file on :W
-command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
-
-" -- 7 Lines to cursor when moving vertically
 set so=7
-
 let $LANG='en'
 set langmenu=en
+set colorcolumn=80
+set signcolumn=yes
+set nocompatible
 
-map <C-space> ?
-" -- Plugins --
+"	Plugins
 call plug#begin()
 Plug 'folke/zen-mode.nvim'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'f-person/git-blame.nvim'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
-" -- Emmet for HTML and CSS --
+"	Emmet for HTML and CSS
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 let g:user_emmet_leader_key= ','
 
-" -- Theme --
+" 	Hotkeys
+nnoremap <silent> <F11> :set spell!<cr>
+inoremap <silent> <F11> <C-0>:set spell!<cr>
+map <space> /
+map <C-space> ?		
+
+"	Theming
 colo seoul256
-let g:seoul256_background = 233
+let g:seoul256_background = 240
 syntax enable

@@ -112,7 +112,10 @@ alias .="cd .."
 alias ./.="cd ../.."
 alias ././.="cd ../../.."
 alias ~="cd ~" 
-alias nc="nvim ~/.nvimrc  
+alias nc="nvim ~/.nvimrc" 
+alias l.="printf '%s\n' .*"
+alias i3c="nvim ~/.i3/config"
+alias vim="nvim"
 #  mmmm mmmmmmm   mm   mmmmm   mmmm  m    m mmmmm  mmmmm 
 # #"   "   #      ##   #   "# #"   " #    #   #    #   "#
 # "#mmm    #     #  #  #mmmm" "#mmm  #mmmm#   #    #mmm#"
