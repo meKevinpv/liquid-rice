@@ -54,7 +54,7 @@ let g:user_emmet_leader_key= ','
 nnoremap <silent> <F11> :set spell!<cr>
 inoremap <silent> <F11> <C-0>:set spell!<cr>
 map <space> /
-map <C-space> ?		
+map <C-space> ?	
 
 "	Theming
 colo seoul256
