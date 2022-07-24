@@ -8,7 +8,7 @@
 "	|_\_|  |_/\____/\_| \_|
 "	Made by: Kevin Veldman
 "
-                       
+"
 "	Personal Settings
 set rnu
 set exrc
