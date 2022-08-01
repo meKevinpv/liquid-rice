@@ -43,6 +43,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'f-person/git-blame.nvim'
 Plug 'sheerun/vim-polyglot'
+Plug 'dylanaraps/wal.vim'
 call plug#end()
 
 "	Emmet for HTML and CSS
@@ -58,5 +59,7 @@ map <C-space> ?
 
 "	Theming
 colo seoul256
+
+"colorscheme wal
 let g:seoul256_background = 240
 syntax enable

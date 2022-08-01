@@ -383,4 +383,4 @@ mode "$mode_gaps_outer" {
 }
 
 exec --no-startup-id picom -b
-exec --no-startup-id wal -R
+exec always --no-startup-id cat /home/kevinv/.cache/wal/sequences
