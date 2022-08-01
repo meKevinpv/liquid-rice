@@ -1,12 +1,11 @@
 " 	File: Nvim Configuration
 "
 "	 ____  _______________ 
-"	(_)  \/  || ___ \ ___ \
-"	 _| .  . || |_/ / |_/ /
-"	| | |\/| || ___ \    / 
-"	| | |  | || |_/ / |\ \ 
-"	|_\_|  |_/\____/\_| \_|
-"	Made by: Kevin Veldman
+"	(_)  \/  || ___ \ ___ \ Author:     Kevin Veldman
+"	 _| .  . || |_/ / |_/ / Date:       01-08-2022
+"	| | |\/| || ___ \    /  File:       Neovim Configuration
+"	| | |  | || |_/ / |\ \  Github:     meKevinpv
+"	|_\_|  |_/\____/\_| \_| Licence:    Free
 "
 "
 "	Personal Settings
