@@ -13,6 +13,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="minimal" # set by `omz`
 zstyle ':omz:update' mode auto      # update automatically without asking
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 plugins=(
     git 
     zsh-autosuggestions
@@ -46,5 +47,4 @@ echo "Fortune favors the bold."
 eval "$(starship init zsh)"
 #   Pywal set theme
 cat /home/kevinv/.cache/wal/sequences
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 return
