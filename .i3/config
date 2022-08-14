@@ -32,6 +32,8 @@ floating_modifier $mod
 #   Default keybinds
 bindsym $mod+Return exec kitty
 bindsym $mod+w exec firefox
+
+bindsym $mod+Control+w exec firefox --private-window
 bindsym $mod+$alt+w exec min
 bindsym $mod+$alt+s exec pavucontrol
 bindsym $mod+r exec st -e ranger
