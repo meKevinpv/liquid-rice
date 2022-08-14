@@ -42,6 +42,7 @@ alias vim="nvim"
 alias lsd="exa -l --icons --color=always -s modified"
 alias kc="nvim ~/.config/kitty/kitty.conf"
 alias md="take"
+alias hosts="sudo nvim /etc/hosts"
 #   Starship
 echo "Fortune favors the bold."
 eval "$(starship init zsh)"

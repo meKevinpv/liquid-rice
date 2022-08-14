@@ -1,13 +1,15 @@
 " 	File: Nvim Configuration
-"
+
+
 "	 ____  _______________ 
 "	(_)  \/  || ___ \ ___ \ Author:     Kevin Veldman
 "	 _| .  . || |_/ / |_/ / Date:       01-08-2022
 "	| | |\/| || ___ \    /  File:       Neovim Configuration
 "	| | |  | || |_/ / |\ \  Github:     meKevinpv
 "	|_\_|  |_/\____/\_| \_| Licence:    Free
-"
-"
+
+
+
 "	Personal Settings
 set rnu
 set exrc
@@ -43,6 +45,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'f-person/git-blame.nvim'
 Plug 'sheerun/vim-polyglot'
 Plug 'dylanaraps/wal.vim'
+Plug 'fcpg/vim-fahrenheit'
 call plug#end()
 
 "	Emmet for HTML and CSS
@@ -57,8 +60,8 @@ map <space> /
 map <C-space> ?	
 
 "	Theming
-colo seoul256
-
+"colo seoul256
+colo fahrenheit
 "colorscheme wal
 let g:seoul256_background = 240
 syntax enable
