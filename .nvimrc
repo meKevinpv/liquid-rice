@@ -61,7 +61,7 @@ map <C-space> ?
 
 "	Theming
 "colo seoul256
-colo fahrenheit
+colo seoul256
 "colorscheme wal
 let g:seoul256_background = 240
 syntax enable
